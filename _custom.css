@@ -1,0 +1,17 @@
+body {
+    background-image: url('/img/singapore_night_panorama-wallpaper-1920x1200.jpg');
+    background-position: top;
+}
+
+a.navbar-brand p {
+    color: #EDCD1F;
+    margin: 0px;
+    padding: 0px;
+}
+
+a.navbar-brand div {
+    height: 100px;
+}
+footer.copyright {
+    position: center;
+}
