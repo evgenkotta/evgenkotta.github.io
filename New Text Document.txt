@@ -1,5 +1,0 @@
-delete twitch
-minecraft
-java
-steam
-terraria
