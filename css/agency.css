@@ -10,9 +10,13 @@ body {
 }
 
 @font-face {
-    font-family: "Sitka Banner", "Sitka Display", "Sitka Heading", "Sitka Small", "Sitka Subheading", "Sitka Text";
-    src: url(/fonts/sitka.ttc);
+    font-family: 'Sitka Heading';
+    src: local('Sitka Heading'), local('SitkaHeading'),
+        url('../fonts/hinted-SitkaHeading.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
+
 
 p {
     line-height: 1.75;
@@ -312,10 +316,6 @@ section#about, section#services {
 #about .row .about-us-text {
     background-color: #fff;
     padding: 2em;
-}
-
-.text-muted {
-
 }
 
 #portfolio .portfolio-item {
